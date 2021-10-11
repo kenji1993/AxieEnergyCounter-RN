@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, ImageBackground, StyleSheet, Text, View } from 'react-native'
 import useCounter from '../../hooks/useCounter'
+import counterButtons from './counterButtons'
 
 const energy = require('../../images/energy.png')
 
@@ -22,7 +23,16 @@ const Counter = () => {
                 </View>
             </ImageBackground>
             <View style={styles.buttons}>
-                <Button
+                {
+                    counterButtons(subtract, add, newMatch).map(({id, title, onPress}) => 
+                        <Button
+                            key={id}
+                            title={title}
+                            onPress={onPress}
+                        />
+                    )
+                }
+                {/* <Button
                     title="-1 EN"
                     onPress={() => subtract(1)}
                 />
@@ -37,7 +47,7 @@ const Counter = () => {
                 <Button 
                     title='Nueva partida'
                     onPress={() => newMatch(3)}
-                />
+                /> */}
                 </View>
             </View>
 
