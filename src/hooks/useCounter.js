@@ -5,11 +5,16 @@ const useCounter = (initial) => {
     const [counter, setCounter] = useState(initial)
 
     const add = (number) => {
-        setCounter(counter + number)
+        if(number === 2) {
+            setCounter(counter < 9 ? counter + number : 10)
+        } else {
+            setCounter(counter < 10  ?  counter + number : 10)
+        }
+        // setCounter(counter < 10  ?  counter + number : 10)
     }
-    
+
     const subtract = (number) => {
-        setCounter(counter - number)
+        setCounter(counter > 0 ? counter - number : 0)
     }
 
     const newMatch = (number) => {
@@ -23,5 +28,6 @@ const useCounter = (initial) => {
         counter,
     }
 }
+
 
 export default useCounter

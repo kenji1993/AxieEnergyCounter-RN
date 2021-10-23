@@ -3,7 +3,7 @@ const counterButtons = (subtract, add, newMatch) => [
     {
         id: 1,
         title: "-1 EN",
-        onPress: () => subtract(1), 
+        onPress: () => subtract(1),
     },
     {
         id: 2,
