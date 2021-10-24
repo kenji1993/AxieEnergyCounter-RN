@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface AxieEnergyCounterTests : XCTestCase
+@interface Axie Energy CounterTests : XCTestCase
 
 @end
 
-@implementation AxieEnergyCounterTests
+@implementation Axie Energy CounterTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

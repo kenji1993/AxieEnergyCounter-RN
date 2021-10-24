@@ -28,10 +28,10 @@ const styles = StyleSheet.create({
         alignItems: "center",
         borderRadius: 17,
         borderWidth: 5,
-        borderColor: "#ffffbf",
+        borderColor: "#ffffff",
     },
     buttonText: {
-        color: "#ffffbf",
+        color: "#ffffff",
         fontWeight: "800",
         fontSize: 20
     }

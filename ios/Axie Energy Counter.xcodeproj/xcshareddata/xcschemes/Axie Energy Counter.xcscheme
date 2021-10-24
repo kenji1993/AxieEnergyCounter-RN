@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "AxieEnergyCounter.app"
-               BlueprintName = "AxieEnergyCounter"
-               ReferencedContainer = "container:AxieEnergyCounter.xcodeproj">
+               BuildableName = "Axie Energy Counter.app"
+               BlueprintName = "Axie Energy Counter"
+               ReferencedContainer = "container:Axie Energy Counter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "AxieEnergyCounterTests.xctest"
-               BlueprintName = "AxieEnergyCounterTests"
-               ReferencedContainer = "container:AxieEnergyCounter.xcodeproj">
+               BuildableName = "Axie Energy CounterTests.xctest"
+               BlueprintName = "Axie Energy CounterTests"
+               ReferencedContainer = "container:Axie Energy Counter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AxieEnergyCounter.app"
-            BlueprintName = "AxieEnergyCounter"
-            ReferencedContainer = "container:AxieEnergyCounter.xcodeproj">
+            BuildableName = "Axie Energy Counter.app"
+            BlueprintName = "Axie Energy Counter"
+            ReferencedContainer = "container:Axie Energy Counter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AxieEnergyCounter.app"
-            BlueprintName = "AxieEnergyCounter"
-            ReferencedContainer = "container:AxieEnergyCounter.xcodeproj">
+            BuildableName = "Axie Energy Counter.app"
+            BlueprintName = "Axie Energy Counter"
+            ReferencedContainer = "container:Axie Energy Counter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

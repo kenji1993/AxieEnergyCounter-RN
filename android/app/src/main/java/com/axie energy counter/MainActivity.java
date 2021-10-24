@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "AxieEnergyCounter";
+    return "Axie Energy Counter";
   }
 }
