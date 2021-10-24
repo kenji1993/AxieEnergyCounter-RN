@@ -8,7 +8,7 @@ npx react-native run-android
 
 
 <img 
-    src="./images/screenshot.png"
+    src="./src/images/screenshot.png"
     with="375"
     height="710"
     alt="App screenshot"
