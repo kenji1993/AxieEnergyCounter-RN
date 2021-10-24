@@ -7,6 +7,8 @@ npm install
 npx react-native run-android
 
 
+<hr>
+
 <img 
     src="./src/images/screenshot.png"
     with="375"
